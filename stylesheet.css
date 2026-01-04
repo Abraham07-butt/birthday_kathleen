@@ -969,16 +969,13 @@ audio {
 }
 
 .bannar {
-  width: 100%;              /* full width container */
-  max-width: 1200px;        /* INCREASE banner length */
-  height: auto;             /* keep image ratio */
-  margin: 0 auto;           /* center horizontally */
+	max-width: 100%;
+	-webkit-transform:translate(0px,-500px);
+	-moz-transform:translate(0px,-500px);
+	-o-transform:translate(0px,-500px);
+	-ms-transform:translate(0px,-500px);
+	transform:translate(0px,-500px);
 
-  -webkit-transform: translate(0px,-500px) scale(1.25);
-  -moz-transform: translate(0px,-500px) scale(1.25);
-  -o-transform: translate(0px,-500px) scale(1.25);
-  -ms-transform: translate(0px,-500px) scale(1.25);
-   transform: translate(0px,-500px) scale(1.25);
 }
 
 .bannar-come {
