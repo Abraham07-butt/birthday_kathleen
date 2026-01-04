@@ -114,16 +114,16 @@ body {
 
 
 .bulb {
-	width: 50px;
-	height: 50px;
+	width: 90px;
+	height: 90px;
 	margin: auto;
 	background-repeat: no-repeat no-repeat;
 	background-position:center 0px;
-	background-size: 50px 50px;
+	background-size: 90px 90px;
 }
 
 .bulb-holder {
-	height: 70px;
+	height: 120px;
 }
 
 .bulb-glow-yellow {
@@ -969,14 +969,18 @@ audio {
 }
 
 .bannar {
-	max-width: 100%;
-	-webkit-transform:translate(0px,-500px);
-	-moz-transform:translate(0px,-500px);
-	-o-transform:translate(0px,-500px);
-	-ms-transform:translate(0px,-500px);
-	transform:translate(0px,-500px);
+  width: 100%;              /* full width container */
+  max-width: 1200px;        /* INCREASE banner length */
+  height: auto;             /* keep image ratio */
+  margin: 0 auto;           /* center horizontally */
 
+  -webkit-transform: translate(0px,-500px) scale(1.25);
+  -moz-transform: translate(0px,-500px) scale(1.25);
+  -o-transform: translate(0px,-500px) scale(1.25);
+  -ms-transform: translate(0px,-500px) scale(1.25);
+   transform: translate(0px,-500px) scale(1.25);
 }
+
 .bannar-come {
 	-webkit-animation: bannar_come linear 6s;
 	-webkit-transform:translate(0px,0px);
@@ -1077,13 +1081,13 @@ audio {
 
 .balloons {
 	position: fixed;
-	bottom: -200px;
-	opacity: 0.6;
+	bottom: -260px;
+	opacity: 0.75;
 	z-index: 99;
-	width: 100px;
-	height: 183px;
+	width: 140px;
+	height: 210px;
 	background-repeat: no-repeat no-repeat;
-	background-size: 100px 183px;
+	background-size: 140px 210px;
 }
 .balloons h2 {
 	text-transform: uppercase;
@@ -1114,6 +1118,10 @@ audio {
 #b7,#b77{
 	background-image: url('b7.png');
 }
+#b8, b88{ 
+	background-image: url('b1.png'); 
+}
+
 .balloons-rotate-behaviour-one {
 	-webkit-animation: balloons_rotate_one linear 10s infinite;
 	-webkit-transform: rotate(30deg);
